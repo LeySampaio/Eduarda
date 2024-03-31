@@ -123,7 +123,7 @@ img {
   color: #583d48;
 }
 
-.section-apoio span {
+.section-apoio p {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
   font-size: 1.1rem;
@@ -172,8 +172,7 @@ img {
     display: grid;
     grid-template-columns: 20px minmax(280px, calc(100% - 40px)) 20px;
   }
-  .menu 
-  .grid-section,
+  .menu .grid-section,
   .footer {
     grid-column: 1;
   }
@@ -230,18 +229,18 @@ img {
   .titulo,
   .vesiculos,
   .section-apoio h1 {
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, "Times New Roman", Times, serif;
     font-weight: 700;
   }
   .section-apoio h1 {
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, "Times New Roman", Times, serif;
     font-weight: 700;
   }
   .vesiculos h1 {
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, "Times New Roman", Times, serif;
     font-weight: 700;
   }
   .section-apoio p {
-    font-size: 0.875rem
+    font-size: 0.875rem;
   }
-  }
+}
