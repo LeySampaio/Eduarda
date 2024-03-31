@@ -199,6 +199,9 @@ img {
     text-align: center;
     order: 1;
   }
+  .section-apoio p {
+    font-size: 0.875rem
+  }
   .titulo {
     font-size: 2rem;
     margin-bottom: 10px;
