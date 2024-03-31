@@ -236,4 +236,7 @@ img {
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight: 700;
   }
+  .section-apoio p {
+    font-size: 0.875rem
+  }
   }
