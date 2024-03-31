@@ -1,0 +1,177 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  display: grid;
+  background: #ffe0ff;
+  -webki-font-smoothing: antialiased;
+  grid-template-columns: 1fr 120px minmax(300px, 800px) 1fr;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.menu {
+  grid-column: 2 / 4;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background: #583d48;
+}
+
+.menu ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: center;
+  grid-gap: 30px;
+}
+
+
+.menu li a {
+  display: block;
+  padding: 10px;
+  margin-right: 10px;
+  color: #ffe0ff;
+  text-decoration: none;
+  font-family: monospace;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  letter-spacing: 0.1em;
+}
+
+.grid-section {
+  grid-column: 2 / 4;
+  grid-template-columns: 400px 300px 1fr;
+  grid-gap: 20px;
+  margin-bottom: 4rem;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  display: grid;
+}
+
+.grid-section p {
+  font-family: monospace;
+  font-weight: 600;
+  font-size: 1.1rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.grid-img {
+  height: 465px;
+  overflow-y: scroll;
+}
+
+.grid-img::-webkit-scrollbar {
+  width: 18px;
+}
+
+.grid-img::-webkit-scrollbar-thumb {
+  background: #583d48;
+  border-left: 4px solid #ffe0ff;
+  border-right: 4px solid #ffe0ff;
+}
+
+.titulo {
+  font-size: 4rem;
+  font-family: fantasy;
+  font-weight: 300;
+  margin-top: 60px;
+  color: #ffe0ff;
+  grid-column: 1 / 4;
+  background: #583d48;
+}
+
+.titulo::before {
+  content: "";
+  display: inline-block;
+  width: 4px;
+  height: 52px;
+  margin-right: 5px;
+  margin-left: 5px;
+  background: #fac3fad3;
+}
+
+.texto-descricao {
+  grid-column: 2 / 4;
+}
+
+.texto-descricao section {
+  margin-bottom: 3rem;
+}
+
+.section-apoio {
+  grid-column: 2 / 4;
+}
+
+.section-apoio h2 {
+  font-family: fantasy;
+  font-size: 3rem;
+  font-weight: 300;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  color: #583d48;
+}
+
+.section-apoio span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.vesiculos h1 {
+  font-size: 3rem;
+  font-weight: 500;
+  font-family: fantasy;
+  margin-bottom: 0.9rem;
+}
+
+.vesiculos p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.vesiculos {
+  grid-column: 2 / 4;
+  margin-top: 3rem;
+  margin-bottom: 1.9rem;
+  color: #583d48;
+}
+
+.footer {
+  grid-column: 3 / 4;
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+  padding: 20px;
+  font-family: monospace;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #ffe0ff;
+  background: #583d48;
+}
+
+
+
+
+
+
+
+
+
+
