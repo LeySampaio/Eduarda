@@ -177,6 +177,9 @@ img {
   .footer {
     grid-column: 1;
   }
+  .menu {
+    grid-column: 1 / 4;
+  }
   .grid-section {
     grid-template-columns: 200px 1fr;
     grid-gap: 10px;
@@ -218,5 +221,10 @@ img {
     font-size: 2rem;
     margin-bottom: 10px;
     margin-top: -10px;
+  }
+  .titulo,
+  .vesiculos,
+  .section-apoio {
+    font-family: Helvetica, sans-serif;
   }
 }
