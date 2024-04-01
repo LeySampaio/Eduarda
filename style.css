@@ -329,7 +329,7 @@ img {
 
 @media screen and (max-width: 800px) {
   .carrossel img {
-    max-width: 40vh;
+    max-width: 36vh;
     height: auto;
   }
 }

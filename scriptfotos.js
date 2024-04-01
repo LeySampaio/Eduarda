@@ -14,5 +14,5 @@ function nextSlide() {
 }
 
 if (window.matchMedia("(max-width: 800px)").matches) {
-  setInterval(nextSlide, 3000);
+  setInterval(nextSlide, 6000);
 }
