@@ -247,7 +247,7 @@ img {
     grid-template-columns: 20px minmax(280px, calc(100% - 40px)) 20px;
   }
   .menu .grid-section,
-  .footer .carrossel .fotos .section-foto {
+  .footer {
     grid-column: 1;
   }
   .menu {
@@ -326,3 +326,11 @@ img {
     height: auto;
   }
 }
+
+@media screen and (max-width: 800px) {
+  .carrossel img {
+    max-width: 40vh;
+    height: auto;
+  }
+}
+

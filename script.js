@@ -43,6 +43,6 @@ function nextSlide() {
     }
   
     if (window.matchMedia("(max-width: 800px)").matches) {
-      setInterval(nextSlide, 2000);
+      setInterval(nextSlide, 5000);
     }
   });
