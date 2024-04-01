@@ -239,28 +239,6 @@ img {
   list-style: none;
 }
 
-/* slide mobile */
-
-@media screen and (max-width: 800px) {
-  .fotos ul {
-    justify-content: center;
-    white-space: nowrap;
-  }
-  .fotos img {
-    max-width: 200px;
-  }
-  .carrossel img {
-    width: 100%;
-    max-width: 200px;
-    height: auto;
-    max-width: 50vh;
-  }
-  .section-foto h1 {
-    font-family: Georgia, "Times New Roman", Times, serif;
-    font-weight: 700;
-  }
-}
-
 /* mobile */
 
 @media screen and (max-width: 800px) {
@@ -269,7 +247,7 @@ img {
     grid-template-columns: 20px minmax(280px, calc(100% - 40px)) 20px;
   }
   .menu .grid-section,
-  .footer {
+  .footer .carrossel .fotos .section-foto {
     grid-column: 1;
   }
   .menu {
