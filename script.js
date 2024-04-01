@@ -21,7 +21,7 @@ function nextSlide() {
     carousel.style.transform = 'translateX(0)';
    }, 500);
   }
-  setInterval(nextSlide, 3000);
+  setInterval(nextSlide, 2000);
 
   document.addEventListener('DOMContentLoaded', function() {
     const carousel = document.getElementById('carousel');
@@ -43,6 +43,6 @@ function nextSlide() {
     }
   
     if (window.matchMedia("(max-width: 800px)").matches) {
-      setInterval(nextSlide, 3000);
+      setInterval(nextSlide, 2000);
     }
   });
