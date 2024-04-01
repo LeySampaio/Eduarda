@@ -3,7 +3,7 @@ function nextSlide() {
   const itemWidth = carousel.querySelector("li").offsetWidth;
   const translateValue = -itemWidth;
 
-  carousel.style.transition = "transform 0.5s ease";
+  carousel.style.transition = "transform 0.8s ease";
   carousel.style.transform = `translateX(${translateValue}px)`;
 
   setTimeout(() => {
