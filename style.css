@@ -317,4 +317,12 @@ img {
   .section-apoio p {
     font-size: 0.875rem;
   }
+  .titulo-fotos h1 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: 700;
+  }
+  .carrossel img {
+    max-width: 100%;
+    height: auto;
+  }
 }
