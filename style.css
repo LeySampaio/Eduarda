@@ -165,6 +165,90 @@ img {
   background: #583d48;
 }
 
+/* carrossel */
+
+.section-foto {
+  grid-column: 2 / 4;
+  font-size: 2rem;
+  margin-top: 60px;
+  font-weight: 500;
+  font-family: fantasy;
+  margin-bottom: 0.9rem;
+  color: #583d48;
+}
+
+.fotos {
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  grid-column: 2 / 4;
+}
+
+.fotos ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  transition: transform 0.5s ease;
+  white-space: nowrap;
+}
+
+.carrossel {
+  display: flex;
+  justify-content: center;
+  transition: transform 0.5 ease;
+  padding: 0;
+  overflow: hidden;
+  margin-top: 40px;
+}
+
+.carrossel li {
+  flex: 0 0 auto;
+  list-style: none;
+
+}
+
+.carrossel img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  max-height: 50vh;
+  transition: opacity 0.5 ease;
+}
+
+.fotos li {
+  flex: 0 0 auto;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.fotos img {
+  max-width: 400px;
+}
+
+#carousel {
+  display: flex;
+  transition: transform 0.5s ease;
+  margin: 0;
+  padding: 0;
+}
+
+#carousel {
+  flex: 0 0 auto;
+  list-style: none;
+}
+
+/* slide mobile */
+
+@media screen and (max-width: 800px) {
+  .fotos ul {
+    justify-content: flex-start;
+    overflow-x: scroll;
+    white-space: nowrap;
+  }
+}
+
 /* mobile */
 
 @media screen and (max-width: 800px) {
