@@ -3,7 +3,7 @@ if (window.innerWidth < 800) {
 
   const descricao = document.querySelector('.descricao');
 
-  gridImg.parentNode.insertBefore(descricao, gridImg.nextSibling);
+  //gridImg.parentNode.insertBefore(descricao, gridImg.nextSibling);
 }
 
 function nextSlide() {
